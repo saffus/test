@@ -20,7 +20,7 @@ public class LoginController {
 	@Autowired
 	LoginResponse resp;
 	
-	private int i =11;
+	private int i =14;
 
 	@RequestMapping(name = "/Login", method = RequestMethod.GET)
 	public ResponseEntity<LoginResponse> LoginValidation(@RequestParam("uname") String name,
