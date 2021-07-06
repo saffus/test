@@ -40,5 +40,9 @@ public class HelloController {
 		
 		
 	}
+	
+	public void getAdd() {
+		
+	}
 
 }
